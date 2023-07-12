@@ -8,12 +8,11 @@ void str_cpy(const char* str_src, char* str_dst)
         str_dst[curr_pos] = str_src[curr_pos];
         ++curr_pos;
     }
-    str_dst[curr_pos];
 }
 
 main()
 {
-    char source_str[200] = "blabla\0bla";
+    char source_str[200] = "blablabla";
     char destination_str[200] ="";
     str_cpy(source_str, destination_str);
     printf("%s", destination_str);
