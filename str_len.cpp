@@ -12,6 +12,6 @@ int str_len(const char* src_str)
 
 int main()
 {
-    int lenght = str_len("kaokdsa");
+    int lenght = str_len("214");
     printf("There're %d characters in the word.", lenght);
 }
